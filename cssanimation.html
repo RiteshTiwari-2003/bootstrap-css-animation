@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation ka gyan</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height:100vh;
+            background-color: beige;
+            border:5px solid black;
+        }
+        .box{
+            width:350px;
+            height:80px;
+            background-color: blue;
+            border: 3px solid yellow;
+            border-radius: 10px;
+            margin: 10px;
+            position: relative;
+            animation-name: rightMovement;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+            animation-delay: 2s;
+
+        }
+        @keyframes rightMovement{
+            from{
+                top: 0px;
+                left:0px;
+
+            }
+            to{
+                top:0;
+                left:1200px;
+
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
+<!--css animation
+css allows animation of html elements without using javascript
+
+in this chapter you will learn about the following properties:
+@keyframes
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+aniation-direction
+animation-timing-function
+animation-fill-mode
+
+
+what are animation in css?
+an animation lets an element gradualy change from one style to another
+you can change as many properties you want, as many time as you want,-->
