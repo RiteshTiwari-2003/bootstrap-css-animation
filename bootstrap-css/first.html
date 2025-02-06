@@ -68,3 +68,47 @@ Most parent class is container and its child is row and row 's child is col and 
     
 </body>
 </html>
+
+<!--Col class for different break points
+1. Extra Large
+2. Large
+3. medium
+4. smALL
+5. eXTRA SMALL
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+
+Breakpoint	     Class infix	   Dimensions
+Extra small	       None	             <576px
+Small	            sm	             ≥576px
+Medium	            md	             ≥768px
+Large	            lg	             ≥992px
+Extra large	        xl	             ≥1200px
+Extra extra large	xxl	              ≥1400px
+
+col class for different break points
+
+extra-extra-large   col-xxl
+extra-large         col-xl
+large               col-lg
+medium              col-md
+small               col-sm
+Extra small         None
+
+-->
+<div class="row">
+    <div class="col-md">Col 1</div>
+    <div class="col-md">Col 2</div>
+    <div class="col-md">Col 3</div><!--col-md means when i use this class for large , extra large and extra extra large and for medium screen three col devide in equal length
+    in one row but when i come below medium screen means for small and extra small screen all three col take whole 100% length and all three col allign just above below each other
+    
+    -->
+</div>
