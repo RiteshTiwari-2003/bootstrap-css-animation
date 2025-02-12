@@ -17,3 +17,17 @@ class = "btn"  btn is the class for button in bootstrap
 
 # outline button class 
 .btn-outline-primary, .btn-outline-secondry
+
+# button size
+
+button size:
+    if i want to give size like large to button in bootstrap then i use .btn-lg and if i want to give small size to button then there is need to put class
+    name .btn-sm
+    
+    like if we take any div class parent class and in that if i want to make button which take whole width of div 
+    then i want to use .btn-block.
+
+# active and disabled button
+
+
+
