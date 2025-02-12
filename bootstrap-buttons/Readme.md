@@ -30,5 +30,8 @@ button size:
 # active and disabled button
 
 class="btn btn-primary" when i use .active class on any div means i am currently active on that div means
-i am currently over that div i am currently clicking on that div
+i am currently over that div i am currently clicking on that div.
+
+.disabled class
+when you put disabled class on div means that is not cirrently clickable
 
