@@ -54,4 +54,15 @@ it is also possible to use an embedded svg icons , apply it via our css custom p
     <li class="breadcrumb-item"><a href="#">Home</a></li>
     <li class="breadcrumb-item active" aria-current="page">Library</li>
   </ol>
+</nav>
+
+
+You can also remove the divider setting --bs-breadcrumb-divider: ''; (empty strings in CSS custom properties counts as a value), or setting the Sass variable to $breadcrumb-divider: none;.
+
+
+<nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Library</li>
+  </ol>
 </nav>-->
