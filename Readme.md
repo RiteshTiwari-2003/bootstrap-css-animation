@@ -138,3 +138,46 @@ first page suning bootstrap :
 </div>
 </body>
 </html>
+#### bootstrap grid system :
+it is used for creating page layout through a series of row and column 
+bootstrap's grid system allow up tio 12 column across the page .
+bootstrap grid system is respnsive ,and column will arrange itself automatically depending upon the screen size.
+if you dont want to use all the 12 column individually then you can group the column together to create the wider column .
+the bootstrap grid system has four class ;
+1. xs : xs is used for phone screen screen less than 768px wide.
+2. sm: screen equal to or greater than 768px size.for tablets
+3. md: screen equal to or greater than 992px wide. for small laptos .
+4. lg for laptop or desktop: screen equal to or greater than 1200 px wide.
+basic structure of grid system :
+<div class="row">
+<div class="col">..</div>
+<div class="col">..</div>
+</div>
+<div class="row">
+<div class="col">...</div>
+<div class="col">...</div>
+</div>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<style>
+    div{
+        border:solid;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="col-md-4">Div 1</div>
+<div class="col-md-4">Div 2</div>
+<div class="col-md-4">Div 3</div>
+</div>
+</div>
+</body>
+</html>
+
+
+
+
