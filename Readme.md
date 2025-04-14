@@ -111,3 +111,30 @@ box-sizing : border-box;
 
 > the widthand hieght only include the content.
 > padding and border are not included in the dimensions but are added outside the content box.
+bootsrap includes html and css based design template for typography , forms ,button, tables 
+bootstrap also give ability to easily create responsive design for responsive web pages 
+responsive web design is about to creating websites which automatically adjust themselves to look good on all device '
+from small phone to large desktop .
+create first page using bootstrap 
+<meta name="viewport" content="width=device-width,initial-scale=1">
+2. container :
+bootstrap also require a containing element to wrap site content:
+there are two container class to choose from:
+the .container class provide a responsive fixed width container 
+the .container-fluid class provide a full width container spanning the entire width of the viewport.
+first page suning bootstrap :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BootStrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+<h1> My First bootstrap page</h1>
+<p> this issome text</p>
+</div>
+</body>
+</html>
