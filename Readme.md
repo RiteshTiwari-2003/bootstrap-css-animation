@@ -170,13 +170,23 @@ basic structure of grid system :
 <body>
 <div class="container">
 <div class="row">
-<div class="col-md-4">Div 1</div>
-<div class="col-md-4">Div 2</div>
-<div class="col-md-4">Div 3</div>
+<div class="col-sm-6 col-md-4">Div 1</div>
+<div class="col-sm-3 col-md-4">Div 2</div>
+<div class="col-sm-3 col-md-4">Div 3</div>
 </div>
 </div>
 </body>
 </html>
+#### bootstrap supported class 
+Typography:
+we look at the html element that will be styled a little bit differntly by bootstrap that browser default 
+the classes for text color:
+.text-muted, .text-primary, .text-success, .text-info, .text-warning , and .text-danger
+the classes for background color:
+.bg-success,.bg-primary, .bg-info, .bg-warning, .bg-danger
+the classes for text content are => .text-left, .text-center, .text-right, .text-justify, .text-lowercase , .text-uppercase, .text-capitalize
+
+
 
 
 
