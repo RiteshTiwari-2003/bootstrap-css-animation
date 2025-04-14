@@ -186,6 +186,9 @@ the classes for background color:
 .bg-success,.bg-primary, .bg-info, .bg-warning, .bg-danger
 the classes for text content are => .text-left, .text-center, .text-right, .text-justify, .text-lowercase , .text-uppercase, .text-capitalize
 
+#### bootstrap table :
+the.table class add basic styling to a table , the basic bootstrap table has a light padding and only horizental devider ,
+the .table-striped class adds zebra stripes to a table , the .table-bordered class adds borders on all side of the table and cells ,
 
 
 
