@@ -196,5 +196,32 @@ the .table-striped class adds zebra stripes to a table , the .table-bordered cla
 <tr><td>Fourth TD</td><td>Fifth TD</td><td>Sixth TD</td></tr>
 <tr><td>Seventh TD</td><td>Eight TD</td><td>ninth TD</td></tr>
 </table>
+#### list and list group:
+to create a basic list group use an <ul> element with class .list-group and <li> element with class .list-group-item 
+<ul class="list-group">
+<li class="list-group-item list-group-item-success">Intellipaat</li>
+<li class="list-group-item list-group-item-info">SkillLearners</li>
+<li class="list-group-item list-group-item-warning">Physics Wallah</li>
+</ul>
 
-
+#### bootstrap form :
+to achive the different background color for button , bootstrap has the following classes:
+.btn
+.btn-default
+.btn-primary
+.btn-success
+.btn-info
+.btn-warning 
+.btn-danger
+.btn-link
+bootstrap provide different button sizes , the classes that defined the different sizes :
+.btn-lg
+.btn-md
+.btn-sm
+.btn-xs
+<body>
+<div class="container">
+<input type="text" value="Click Me" class="btn btn-success btn-lg"/>
+<input type="text" value="Click Me" class="btn btn-primary btn-lg"/>
+<input type="text" value="Click Me" class="btn btn-info btn-lg"/>
+</div>
