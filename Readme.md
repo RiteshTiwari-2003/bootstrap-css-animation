@@ -225,3 +225,22 @@ bootstrap provide different button sizes , the classes that defined the differen
 <input type="text" value="Click Me" class="btn btn-primary btn-lg"/>
 <input type="text" value="Click Me" class="btn btn-info btn-lg"/>
 </div>
+a block level button spans the entire width of parent element <button type="button" class="btn btn-primary btn-block" >Button 1</button>
+a button can be set to an active (appear pressed) or disabled (unclickable state) , the class .active makes a button appear pressed and the class .disabled makes it disable <button type="button" class="btn btn-primary disabled" >Button 1</button>
+<button type="button" class="btn btn-primary active" >Button 1</button>
+
+bootstrap provide three type of form layout :
+vertical form (by default)
+horizental form 
+inline form 
+
+### rules for bootstrap form :
+standard rule for three form layout:
+wrap labels and form controls in <div class="form-group">(needed for optimaum space)
+
+add class .form-control to all textual <input>, ,<textarea> and select element .
+alltextual <input>, <textarea> and <select> eement with class .form-control have a width of 100%
+<form >
+<div  class="form-group">
+<label>User input</label>
+<input type="text" value="username" class="form-control"/></div></form>
