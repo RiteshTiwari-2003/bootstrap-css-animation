@@ -189,8 +189,12 @@ the classes for text content are => .text-left, .text-center, .text-right, .text
 #### bootstrap table :
 the.table class add basic styling to a table , the basic bootstrap table has a light padding and only horizental devider ,
 the .table-striped class adds zebra stripes to a table , the .table-bordered class adds borders on all side of the table and cells ,
+.table-hover class adds a hover effect , and .table-condensed class makes a tabe more compacted by cutting cell padding in half
 
-
-
+<table border=2 class="table table-striped table-hover table-bordered table-condensed">
+<tr><td>First TD</td><td>Second TD</td><td>Third TD</td></tr>
+<tr><td>Fourth TD</td><td>Fifth TD</td><td>Sixth TD</td></tr>
+<tr><td>Seventh TD</td><td>Eight TD</td><td>ninth TD</td></tr>
+</table>
 
 
