@@ -244,3 +244,10 @@ alltextual <input>, <textarea> and <select> eement with class .form-control have
 <div  class="form-group">
 <label>User input</label>
 <input type="text" value="username" class="form-control"/></div></form>
+
+#### now lets discuss about inline form :
+inline form :
+in an inine form , all of the element are inline , left aligned and label are alongside 
+this only applies to forms within viewpoet that are atleast 768px value ,
+additional value for inline form :
+add class .form-inline to the form element 
